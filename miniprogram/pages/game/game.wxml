@@ -1,0 +1,25 @@
+<!--pages/game/game.wxml-->
+<view class='cantainer'>
+  <view class='title yellow'>第{{season}}赛季</view>
+  <progress percent='{{progress}}' border-radius='6' stroke-width='12'></progress>
+  <view class='title white'>第{{no}}题</view>
+  <view style='height:90rpx;'></view>
+  <view class='formula'>{{formula.Q}}</view>
+  <view class='value'>={{formula.value}}</view>
+  <view style='height:90rpx;'></view>
+</view>
+
+<view class='judgebtn'>
+  <image bindtap='judge' data-isRight='{{true}}' src='/images/right.png'></image>
+  <image bindtap='judge' data-isRight='{{false}}'  src='/images/wrong.png'></image>
+</view>
+
+<block wx:if='{{gameover}}'>
+  <view class='mask'></view>
+  <view class='invite'>
+    <text>邀请好友一起比加减</text>
+    <button open-type='share'></button>
+    <!-- <image bindtap='share' src='/images/share.png' mode='aspectFit'></image> -->
+  </view>
+  <view class='skip' bindtap='skip'>点击跳过>></view>
+</block>

@@ -1,0 +1,30 @@
+/* pages/setname/setname.wxss */
+page{
+  background-color: #783c9e;
+}
+.warnning{
+  margin-top: 100rpx;
+  color: white;
+  text-align: center;
+  font-size: 34rpx;
+  margin: 30rpx;
+}
+.main{
+  margin-top: 100rpx;
+  background-color: white;
+  padding: 20rpx 0;
+}
+.label{
+  margin: 40rpx;
+}
+input{
+  padding: 20rpx;
+  background-color: white;
+  margin: 40rpx;
+  border-bottom: solid 3rpx #eeeeee;
+}
+button{
+  margin: 40rpx;
+  background-color: blueviolet;
+  color: white;
+}

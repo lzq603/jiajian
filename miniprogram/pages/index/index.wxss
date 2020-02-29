@@ -1,0 +1,108 @@
+/* pages/index/index.wxss */
+page{
+  background: #783c9e;
+}
+
+.top{
+  width: 600rpx;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+.head{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 120rpx;
+}
+.info{
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.name{
+  font-weight: bold;
+  color: white;
+}
+.des{
+  font-size: 32rpx;
+  color: white;
+}
+
+.grad1{
+  background:linear-gradient(150deg, #71aa39, #669934);
+}
+.grad2{
+  background:linear-gradient(150deg, #ee4d79, #e44975);
+}
+
+.versus{
+  font-size: 50rpx;
+  font-weight: bold;
+  padding: 30rpx;
+  color: white;
+  
+  width: 600rpx;
+  height: 120rpx;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20rpx;
+  margin-top: 40rpx;
+
+  line-height: normal;
+  text-align: left;
+  box-sizing: content-box;
+}
+.menu{
+  width: 660rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu .item{
+  background:linear-gradient(150deg, #01b2ff, #1597e5);
+  width: 140rpx;
+  height: 140rpx;
+  color: white;
+  padding: 30rpx;
+  margin-top: 40rpx;
+  border-radius: 20rpx;
+  font-weight: bold;
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 660rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+.invite, .more{
+  margin-top: 40rpx;
+  background:#12b5b0;
+  color: white;
+  font-weight: bold;
+  
+  border-radius: 20rpx;
+  font-size: 34rpx;
+}
+.invite{
+  box-sizing: content-box;
+  line-height: normal;
+  margin-left: 0;
+}
+.tip{
+  color: white;
+  background:#cd4269;
+  font-size: 30rpx;
+  position: absolute;
+  left: 0;
+  bottom: 20rpx;
+  padding: 8rpx 20rpx;
+  border-top-right-radius: 30rpx;
+  border-bottom-right-radius:30rpx;
+}

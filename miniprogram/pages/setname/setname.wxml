@@ -1,0 +1,14 @@
+<!--pages/setname/setname.wxml-->
+<view class="warnning">填写后信息不可更改，请务必确保所填信息准确无误。如因信息填写错误导致奖品无法送达，本人不负责!</view>
+<view class='main'>
+  <view class='label'>姓名：</view>
+  <form bindsubmit='bind'>
+    <input placeholder='您的姓名' name='name'></input>
+    <view class='label'>地址：</view>
+    <input placeholder='输入你的地址' name='address'></input>
+    <view class='label'>联系方式：</view>
+    <input placeholder='您的手机号' name='phone'></input>
+    <button form-type='submit'>确定</button>
+  </form>
+
+</view>

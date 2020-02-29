@@ -1,0 +1,35 @@
+/* pages/rule/rule.wxss */
+page{
+  background: #783c9e;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  border-bottom: dashed 2rpx rgba(255, 255, 255, 0.5);
+  margin: 40rpx;
+}
+.no{
+  background: white;
+  color: #783c9e;
+  width: 70rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 35rpx;
+}
+.content{
+  width: 600rpx;
+  color: white;
+  font-size: 28rpx;
+  padding: 0 0 60rpx 20rpx;
+}
+.kefu{
+  background: white;
+  color: #783c9e;
+  width: 240rpx;
+  border-radius: 40rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 40rpx;
+}

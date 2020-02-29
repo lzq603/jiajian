@@ -1,0 +1,108 @@
+/* pages/prize/prize.wxss */
+page{
+  background: #783c9e;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.space-round{
+  justify-content: space-around;
+}
+.space-between{
+  justify-content: space-between;
+}
+.option{
+  color: #b7abc1;
+  width: 46%;
+  border-radius: 30rpx;
+  padding: 10rpx;
+  text-align: center;
+}
+.active{
+  color: white;
+  background: #f75297;
+}
+.switch{
+  background: #532a6e;
+  width: 700rpx;
+  border-radius: 40rpx;
+  padding: 10rpx;
+}
+.row{
+  margin: 28rpx;
+}
+
+.prize{
+  background: white;
+  border-radius: 10rpx;
+  width: 334rpx;
+  position: relative;
+}
+
+.prize image{
+  width: 100%;
+  height: 346rpx;
+}
+.dashika{
+  color: #f75297;
+  font-size: 32rpx;
+  margin: 10rpx;
+}
+.name{
+  font-size: 26rpx;
+  margin: 10rpx;
+}
+.draw{
+  position: absolute;
+  right: 14rpx;
+  top: 280rpx;
+  background: #783c9e;
+  width: 150rpx;
+  height: 60rpx;
+  color: white;
+  text-align: center;
+  border: solid 2rpx white;
+  border-radius: 30rpx;
+}
+.bottom{
+  background: #df4e99;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 24rpx 0;
+}
+.myprize{
+  background: white;
+  padding: 30rpx;
+  margin: 26rpx;
+  border-radius: 10rpx;
+}
+.myprize image{
+  width: 40%;
+  height: 280rpx;
+}
+.time{
+  color: #999999;
+  font-size: 28rpx;
+  margin-left: 10rpx;
+}
+.des{
+  margin-left: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 280rpx;
+}

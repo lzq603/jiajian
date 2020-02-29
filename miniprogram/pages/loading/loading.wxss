@@ -1,0 +1,17 @@
+/* pages/loading/loading.wxss */
+page{
+  background: #783c9e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+button{
+  width: 200rpx;
+  background: white;
+  color: #783c9e;
+  margin-top: 240rpx;
+}
+image{
+  width: 30%;
+}

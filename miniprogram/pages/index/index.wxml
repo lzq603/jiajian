@@ -1,0 +1,20 @@
+<!--pages/index/index.wxml-->
+<view class='top'>
+  <image class='head' src='{{app.globalData.userInfo.avatarUrl}}'></image>
+  <view class='info'>
+    <view class='name'>{{app.globalData.userInfo.nickName}}</view>
+    <view class='des'>本赛季排名：{{myRank}} 分数：{{app.globalData.userInfo.score}}</view>
+  </view>
+</view>
+<view class='versus grad1' bindtap='versus' style='margin-top:20rpx;'>玩家对战</view>
+<button class='versus grad2' bindtap='start' style="position:relative;">冲顶赛<view class="tip">每周前5名送大师卡x1</view></button>
+
+<view class='menu'>
+  <view data-page='rank' class='item' bindtap="goto">排行</view>
+  <view data-page='prize' class='item' bindtap="goto">奖品</view>
+  <view data-page='rule' class='item' bindtap='goto'>规则</view>
+</view>
+<view class='bottom'>
+  <button open-type='share' class='invite' style='padding: 30rpx 67rpx;'>约好友一起来挑战></button>
+  <view class='more' style='padding: 30rpx 32rpx;'>更多好玩</view>
+</view>

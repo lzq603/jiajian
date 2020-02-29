@@ -1,0 +1,23 @@
+<!--pages/rule/rule.wxml-->
+<view class='item'>
+  <view class='no'>1</view>
+  <view class='content'>冲顶赛不限挑战次数，每个人都有机会挑战自己速算能力的极限</view>
+</view>
+<view class='item'>
+  <view class='no'>2</view>
+  <view class='content'>答题时间会随着挑战的进行越来越短</view>
+</view>
+<view class='item'>
+  <view class='no'>3</view>
+  <view class='content'>冲顶赛一周为一个赛季，本赛季结束每周前5名送大师卡1张。届时如大师卡数量未更新，请尝试重启微信</view>
+</view>
+<view class='item'>
+  <view class='no'>4</view>
+  <view class='content'>获得大师卡后，您可以免费兑换心仪的奖品（如果挑选的娃娃缺货，将随机发货），填写领取信息，客服按照申请顺序发货，奖品包邮！</view>
+</view>
+<view class='item'>
+  <view class='no'>5</view>
+  <view class='content'>更多福利，关注公众号 手游宝盒，广告合作/游戏联运 加微信lizq603</view>
+</view>
+<view style='color:#fdc97e;text-align:center;font-size:24rpx;'>如需了解详情请联系客服</view>
+<button class='kefu' open-type="contact" bindcontact="handleContact">联系客服</button>

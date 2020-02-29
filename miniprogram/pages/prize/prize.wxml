@@ -1,0 +1,35 @@
+<!--pages/prize/prize.wxml-->
+<view class="switch center space-between flex-row">
+  <view bindtap="switchOpt1" class="option {{opt1}}">挑战领奖</view>
+  <view bindtap="switchOpt2" class="option {{opt2}}">领奖记录</view>
+</view>
+<view wx:if='{{opt1 == "active"}}' wx:for='{{prizeList.length / 2}}' class="row flex-row space-between">
+  <view class="prize">
+    <image mode='scaleToFill' src="{{prizeList[index * 2].image}}"></image>
+    <view class="dashika">大师卡x{{prizeList[index * 2].cost}}</view>
+    <view class="name">{{prizeList[index * 2].name}}</view>
+    <view class="draw" data-index="{{index * 2}}" bindtap="draw">领取</view>
+  </view>
+  <view class="prize">
+    <image mode='scaleToFill' src="{{prizeList[index * 2 + 1].image}}"></image>
+    <view class="dashika">大师卡x{{prizeList[index * 2 + 1].cost}}</view>
+    <view class="name">{{prizeList[index * 2 + 1].name}}</view>
+    <view class="draw" data-index="{{index *2 + 1}}" bindtap="draw">领取</view>
+  </view>
+</view>
+<view class="myprize flex-row" wx:if='{{opt2 == "active"}}' wx:for='{{myPrize}}'>
+  <image src="{{item.image}}"></image>
+  <view class="des">
+    <view>
+      <view class="dashika">大师卡x{{item.cost}}</view>
+      <view class="name">{{item.pname}}</view>
+    </view>
+    <view class="time">
+      <view>兑换时间：</view>
+      <view>{{item.time}}</view>
+    </view>
+    
+  </view>
+</view>
+<view style="height:80rpx;"></view>
+<view class="bottom">我的大师卡 x{{app.globalData.userInfo.dashika}}</view>
